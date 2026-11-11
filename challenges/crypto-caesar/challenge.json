@@ -1,0 +1,17 @@
+{
+  "id": "crypto-caesar",
+  "name": "Ancient Transmission",
+  "category": "Crypto",
+  "points": 50,
+  "difficulty": "Easy",
+  "description": "An old transmission was recovered. The letters look shifted. Recover the flag from ciphertext.txt.",
+  "files": [
+    "ciphertext.txt"
+  ],
+  "hints": [
+    "Julius Caesar used a fixed shift of the alphabet.",
+    "There are only 26 possible shifts. Try them all."
+  ],
+  "flag_sha256": "4d0a1f16192c7b291df7964b11a0e8d0c41466448bbcadf45ecb65852a87d248",
+  "flag_format": "CTF{...}"
+}

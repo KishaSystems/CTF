@@ -1,0 +1,17 @@
+{
+  "id": "crypto-rsa",
+  "name": "Tiny RSA",
+  "category": "Crypto",
+  "points": 150,
+  "difficulty": "Hard",
+  "description": "A tiny RSA implementation encrypted each byte of the flag separately. The public key and ciphertext are in rsa.json. Factor n, recover d, and decrypt.",
+  "files": [
+    "rsa.json"
+  ],
+  "hints": [
+    "n is small enough to factor by trial division.",
+    "phi = (p-1)*(q-1), d = inverse(e, phi), plaintext byte = pow(c, d, n)."
+  ],
+  "flag_sha256": "1596d0a5a9ed6868b6271f42e4d41e56fa1009a4a486b3a6cb2bce3b17078a01",
+  "flag_format": "CTF{...}"
+}

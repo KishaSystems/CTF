@@ -1,0 +1,5 @@
+Intercepted transmission (channel 7):
+
+JAM{j43z4y_j1wo3y_1z_4uj13ua}
+
+The key was not recovered. Brute force is your friend.

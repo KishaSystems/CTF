@@ -1,0 +1,17 @@
+{
+  "id": "misc-welcome",
+  "name": "Welcome to the Game",
+  "category": "Misc",
+  "points": 10,
+  "difficulty": "Easy",
+  "description": "Every journey starts somewhere. Open readme.txt and decode what you find.",
+  "files": [
+    "readme.txt"
+  ],
+  "hints": [
+    "Base64 text often ends with '=' or '=='.",
+    "Try: python -c \"import base64;print(base64.b64decode('PASTE_BLOB_HERE'))\""
+  ],
+  "flag_sha256": "531746f231a037476a17a37db2e3f133a0bf7af6f6799a054d5e10e79b73cafd",
+  "flag_format": "CTF{...}"
+}

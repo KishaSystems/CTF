@@ -1,0 +1,17 @@
+{
+  "id": "forensics-png",
+  "name": "Beyond the Pixels",
+  "category": "Forensics",
+  "points": 100,
+  "difficulty": "Medium",
+  "description": "image.png should be a plain 1x1 pixel, but something is hiding after the end of the PNG data. Find the flag.",
+  "files": [
+    "image.png"
+  ],
+  "hints": [
+    "PNG files end with the IEND chunk.",
+    "Try strings, a hex editor, or binwalk on image.png."
+  ],
+  "flag_sha256": "0c871fc6689c7e94189a8010639000fefc72dbf9d836b2372e602749795cf9ee",
+  "flag_format": "CTF{...}"
+}

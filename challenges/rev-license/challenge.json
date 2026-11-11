@@ -1,0 +1,17 @@
+{
+  "id": "rev-license",
+  "name": "Crack the License",
+  "category": "Reversing",
+  "points": 125,
+  "difficulty": "Medium",
+  "description": "A license checker validates a secret key. Reverse the check in license_check.py to recover the key (which is the flag).",
+  "files": [
+    "license_check.py"
+  ],
+  "hints": [
+    "The transformation is reversible.",
+    "For each character: encrypted = ord(char) XOR ((index*7+3) & 0xFF). Invert it."
+  ],
+  "flag_sha256": "1604944f326d5aa3e49f3232fbdd6d264a8a563c801513109165652f46e932c9",
+  "flag_format": "CTF{...}"
+}

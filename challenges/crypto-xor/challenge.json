@@ -1,0 +1,17 @@
+{
+  "id": "crypto-xor",
+  "name": "Single Byte Secrets",
+  "category": "Crypto",
+  "points": 75,
+  "difficulty": "Easy",
+  "description": "The secret was encrypted by XORing each byte with a single key byte. The hex-encoded ciphertext is in secret.hex.",
+  "files": [
+    "secret.hex"
+  ],
+  "hints": [
+    "A single-byte XOR key has only 256 possibilities.",
+    "Look for the plaintext that starts with 'CTF{'."
+  ],
+  "flag_sha256": "6db752a443b24d621d470f2e03d21a7211eb36ff506410cf2d5b6860ef1bafbd",
+  "flag_format": "CTF{...}"
+}

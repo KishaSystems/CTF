@@ -1,0 +1,17 @@
+{
+  "id": "misc-layers",
+  "name": "Three Layers Deep",
+  "category": "Misc",
+  "points": 50,
+  "difficulty": "Easy",
+  "description": "Three layers of encoding protect this message in layers.txt. Peel them in the right order: ROT13, then hex, then base64.",
+  "files": [
+    "layers.txt"
+  ],
+  "hints": [
+    "Apply ROT13 first.",
+    "After ROT13, the text is hexadecimal."
+  ],
+  "flag_sha256": "65b0c16f872f5e8b6060591e14744d8167a49d21b4f97d38f6c7647719170303",
+  "flag_format": "CTF{...}"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "misc-whitespace",
+  "name": "Invisible Ink",
+  "category": "Misc",
+  "points": 100,
+  "difficulty": "Medium",
+  "description": "message.txt looks like ordinary meeting notes, but the invisible characters at the end of each line tell a different story. Space = 0, tab = 1.",
+  "files": [
+    "message.txt"
+  ],
+  "hints": [
+    "Only the whitespace at the very end of each line matters.",
+    "Each line encodes one 8-bit character, most significant bit first."
+  ],
+  "flag_sha256": "44a57fa7d6555b2336dd54b9d441181922fb38c3fe58d18e24f534dda28eb7b2",
+  "flag_format": "CTF{...}"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "web-robots",
+  "name": "Forbidden Paths",
+  "category": "Web",
+  "points": 75,
+  "difficulty": "Easy",
+  "description": "ORION Corp's website is running locally. Robots are told where not to go. Maybe you should go there anyway. Start it with: python ctf.py serve web-robots",
+  "files": [
+    "site/index.html",
+    "site/about.html",
+    "site/careers.html",
+    "site/robots.txt",
+    "site/s3cr3t/admin.html"
+  ],
+  "hints": [
+    "Check /robots.txt first.",
+    "The Disallow path is a strong hint."
+  ],
+  "flag_sha256": "d5ab5848ae27c1d151c034c2eea1d7b3708412c8e57431ec06af91c7064910d1",
+  "flag_format": "CTF{...}",
+  "serve": {
+    "cwd": "site",
+    "args": [
+      "-m",
+      "http.server",
+      "8000",
+      "--bind",
+      "127.0.0.1"
+    ]
+  }
+}

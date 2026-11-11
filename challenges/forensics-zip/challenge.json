@@ -1,0 +1,17 @@
+{
+  "id": "forensics-zip",
+  "name": "Archive Whispers",
+  "category": "Forensics",
+  "points": 75,
+  "difficulty": "Easy",
+  "description": "A ZIP archive was recovered from a workstation. The files inside are boring, but the archive itself has something to say.",
+  "files": [
+    "archive.zip"
+  ],
+  "hints": [
+    "ZIP archives can store a comment after the file entries.",
+    "Try unzip -z archive.zip, 7z l archive.zip, or strings archive.zip."
+  ],
+  "flag_sha256": "52ad55cfbd33327c7283ce3626aca294be15f76db5714560d0a0b43baedf5f85",
+  "flag_format": "CTF{...}"
+}

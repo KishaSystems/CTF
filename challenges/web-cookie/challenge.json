@@ -1,0 +1,23 @@
+{
+  "id": "web-cookie",
+  "name": "Trust Issues",
+  "category": "Web",
+  "points": 100,
+  "difficulty": "Medium",
+  "description": "The ORION portal trusts a cookie a little too much. Start it with: python ctf.py serve web-cookie",
+  "files": [
+    "server.py"
+  ],
+  "hints": [
+    "Look at the Set-Cookie header the server sends.",
+    "Try sending 'Cookie: admin=true' with curl, or edit the cookie in your browser dev tools."
+  ],
+  "flag_sha256": "b370fc2246e75c54fac46f939cc89a7933d2b7ffbf183f140d0ddb85814f5d82",
+  "flag_format": "CTF{...}",
+  "serve": {
+    "cwd": ".",
+    "args": [
+      "server.py"
+    ]
+  }
+}
